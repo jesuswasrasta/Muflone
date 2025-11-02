@@ -166,4 +166,7 @@ See `CLAUDE.md` for AI assistant guidance on:
 - Common development patterns
 - Handler registration approaches
 
+## Resources
+- Muflone GitHub repository: [Muflone](https://github.com/CQRS-Muflone/Muflone)
+
 **Version**: 1.0.0 | **Ratified**: 2025-01-02 | **Last Amended**: 2025-01-02
