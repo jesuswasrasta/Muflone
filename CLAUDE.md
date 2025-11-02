@@ -52,8 +52,21 @@ Muflone is a C# library implementing CQRS (Command Query Responsibility Segregat
 **Sample Usage**: https://github.com/CQRS-Muflone/CQRS-ES_testing_workshop
 
 **Important Documentation Files**:
+- `.specify/memory/constitution.md` - **Project Constitution** defining non-negotiable development principles (Event Sourcing Integrity, CQRS Separation, Test-First Development, Transport Agnosticism, Backward Compatibility)
 - `GEMINI.md` - Additional insights and discoveries from Gemini AI
 - `MUFLONE_ANALYSIS.md` - Detailed analysis with real-world usage examples from the BrewUp/DDD-Europe-2025 repository. This document shows practical patterns for implementing aggregates, commands, events, and handlers.
+
+## SpecKit Workflow
+
+For structured feature development, use the SpecKit workflow:
+
+1. **`/speckit.specify`** - Document feature requirements and user stories
+2. **`/speckit.plan`** - Design architecture and implementation approach
+3. **`/speckit.tasks`** - Generate actionable, dependency-ordered task list
+4. **`/speckit.implement`** - Execute implementation with test-first approach
+5. **`/speckit.analyze`** - Verify consistency and constitution compliance
+
+All feature work MUST comply with the principles defined in `.specify/memory/constitution.md`.
 
 ## Build, Test, and Development Commands
 
