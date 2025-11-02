@@ -1,20 +1,34 @@
 <!--
 Sync Impact Report:
-- Version: 1.0.0 (initial constitution)
-- New principles established:
+- Version: 1.1.0 (minor amendment)
+- Changes from 1.0.0:
+  * Added "Project Mission" section clarifying translation objective
+  * Constitution now explicitly governs both C# and PHP implementations
+  * Reference to MUFLONE-PHP-TRANSLATION-PROJECT.md for PHP-specific guidance
+- Principles (unchanged):
   1. Event Sourcing Integrity
   2. CQRS Separation
   3. Test-First Development
   4. Transport Agnosticism
   5. Backward Compatibility
 - Templates status:
-  ✅ plan-template.md - reviewed, principles aligned
-  ✅ spec-template.md - reviewed, principles aligned
-  ✅ tasks-template.md - reviewed, principles aligned
-- Follow-up: None required for initial constitution
+  ✅ plan-template.md - no changes required
+  ✅ spec-template.md - no changes required
+  ✅ tasks-template.md - no changes required
+- Follow-up: None required
 -->
 
 # Muflone Constitution
+
+## Project Mission
+
+**Primary Objective**: Translate the Muflone CQRS/Event Sourcing library from C# (.NET Core 8) to PHP 8.4.
+
+This constitution governs both:
+1. **Maintenance and enhancement** of the existing C# library
+2. **Translation and development** of the PHP implementation
+
+All principles below apply to both implementations, with language-specific adaptations where necessary (documented in `MUFLONE-PHP-TRANSLATION-PROJECT.md` for PHP).
 
 ## Core Principles
 
@@ -169,4 +183,4 @@ See `CLAUDE.md` for AI assistant guidance on:
 ## Resources
 - Muflone GitHub repository: [Muflone](https://github.com/CQRS-Muflone/Muflone)
 
-**Version**: 1.0.0 | **Ratified**: 2025-01-02 | **Last Amended**: 2025-01-02
+**Version**: 1.1.0 | **Ratified**: 2025-01-02 | **Last Amended**: 2025-01-02
