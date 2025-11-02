@@ -51,6 +51,10 @@ Muflone is a C# library implementing CQRS (Command Query Responsibility Segregat
 **GitHub**: https://github.com/CQRS-Muflone/Muflone/
 **Sample Usage**: https://github.com/CQRS-Muflone/CQRS-ES_testing_workshop
 
+**Important Documentation Files**:
+- `GEMINI.md` - Additional insights and discoveries from Gemini AI
+- `MUFLONE_ANALYSIS.md` - Detailed analysis with real-world usage examples from the BrewUp/DDD-Europe-2025 repository. This document shows practical patterns for implementing aggregates, commands, events, and handlers.
+
 ## Build, Test, and Development Commands
 
 ### Build
